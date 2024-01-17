@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="icon" href="pencil.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <!-- Create the rectangle box with text -->
+    <div class="container">
+        <h1>Student Management</h1>
+        
+        <hr class="border border-primary border-3 opacity-75">
+        <div class="button-container">
+            <button type="button" class="btn1 btn-outline-success" id="addStudentButton"> + Add Students</button>
+            <button type="button" class="btn2 btn-outline-primary" id="viewStudentButton"> View Students</button>
+        </div>
+    </div>
+
+    <div class="container">
+        
+       
+            <table id="studentsTable" border="1">
+                <thead>
+                  <tr>
+                    <th>SLNO</th>
+                    <th>Name</th>
+                    <th>Standard</th>
+                    <th>House</th>
+                    <th>Roll Number</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Contact Number</th>
+                    <th>Handle</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+        
+    </div>
+    <!-- Move the button div below the container -->
+
+
+<script src="script.js"></script>
+</body>
+</html>
